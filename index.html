@@ -5,13 +5,38 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <!-- CSS Personal -->
+        <link rel="stylesheet" href="css/main.css" />
+        <!-- CSS Bootstrap -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
         />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-        <title>Document</title>
+        <title>API</title>
     </head>
-    <body></body>
+    <body>
+        <div class="container-fluid">
+            <table class="table table-striped table-hover" id="table">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Official Name</th>
+                        <th scope="col">Capital</th>
+                        <th scope="col">Region</th>
+                        <th scope="col">Language</th>
+                        <th scope="col">Population</th>
+                        <th scope="col" class="text-center">Flag</th>
+                    </tr>
+                </thead>
+                <tbody class="table-secondary" id="countries"></tbody>
+            </table>
+        </div>
+
+        <!-- CDN jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- CDN Bootbox -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+        <!-- JS Personal -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
